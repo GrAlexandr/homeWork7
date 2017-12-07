@@ -1,0 +1,78 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #aacfff;
+}
+.wrapper {
+	position: relative;
+	max-width: 600px;
+	min-height: 600px;
+	margin: 0 auto;
+	background-color: #d5d5d5;
+	border: 5px solid #7f1121;
+}
+h1 {
+	position: relative;
+	display: inline-block;
+	margin: 20px 20px 20px 220px;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #7f1121;
+}
+h1 span {
+	position: absolute;
+	top: 0;
+	right: -30px;
+	font-size: x-small;
+	text-decoration: none;
+	color: #1a2053;
+}
+.play {
+	width: 400px;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	cursor: pointer;
+}
+li {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding-top: 8px;
+	background-color: #aacfff;
+	border: 5px solid #1a2053;
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	color: #1a2053;
+	box-shadow: 0 0 10px rgba(51, 66, 168, 0.5);
+}
+.empty {
+	background-color: #1a2053;
+	color: #1a2053;
+}
+.btn {
+	position: absolute;
+	width: 30%;
+	background-color: #aacfff;
+	border: 3px solid #7f1121;
+	border-radius: 5px;
+	font-size: x-large;
+	font-weight: bold;
+	color: #7f1121;
+}
+.btn-left {
+	bottom: 20px;
+	left: 15%;
+}
+.btn-right {
+	bottom: 20px;
+	right: 15%;
+}
+@media screen and (max-width: 500px){
+	h1 {
+		margin: 20px 20px 20px 150px;
+	}
+}
