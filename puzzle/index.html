@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Playing at 15</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js" defer></script>
+	<script src="js/jquery-ui.js" defer></script>
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<div class="wrapper">
+	<h1>Puzzle</h1>
+
+	<label for="inp"></label>
+	<input typeof="text" id="inp" placeholder="Enter your name">
+
+	<label for="sell"></label>
+	<select id="sell">
+		<option value="3">3 x 3</option>
+		<option value="4" selected>4 x 4</option>
+		<option value="5">5 x 5</option>
+		<option value="6">6 x 6</option>
+		<option value="7">7 x 7</option>
+		<option value="8">8 x 8</option>
+		<option value="9">9 x 9</option>
+		<option value="10">10 x 10</option>
+	</select>
+	<div id="timer"></div>
+
+	<div id="board" class="board"></div>
+
+	<button class="btn btn-left" id="btnNewGame">new game</button>
+	<button class="btn btn-right" id="btnGameOver">game over</button>
+
+</div>
+
+<div class="visibil" id="result">
+	<table id="chemp" class="chemp">
+		<caption>Table of champions</caption>
+		<tr>
+			<th class="td-chemp">Gamer</th>
+			<th class="td-chemp">Board Size</th>
+			<th class="td-chemp">Time</th>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
