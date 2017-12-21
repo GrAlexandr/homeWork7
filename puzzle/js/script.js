@@ -12,7 +12,6 @@ let arr = JSON.parse(localStorage.getItem('game')) || [],
 	tableChemp = elem.getElementById('chemp'),
 	inp = elem.getElementById('inp'),
 	divTimer = elem.getElementById('timer'),
-	//date,
 	hh_mi_ss;
 
 let addTable = () => {
